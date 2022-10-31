@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px){
+    body
+    {
+        background-color: darkgoldenrod;
+    }
+}
+
+body{
+    padding-bottom: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+#header{
+    position: fixed;   
+    width: 100%;
+    color: white;
+}
+
+#header a{    
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: goldenrod;
+}
+
+#header-box{
+    
+    display: flex;
+    flex-direction: row;     
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: darkred;
+}
+
+iframe{
+    margin-top: 100px;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+#flex-container input{
+    margin: 10px;
+}
+
+#flex-container label{
+    margin: 10px;
+}
